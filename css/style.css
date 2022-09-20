@@ -1,0 +1,193 @@
+/* Css cho phần tổng */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Css cho phần Navbar */
+
+#navbar-insurance {
+  font-family: "Rubik", sans-serif;
+}
+
+#navbar-insurance a.navbar-logo,
+#navbar-insurance .navbar-nav a.nav-link,
+#navbar-insurance .navbar-contact .navbar-help {
+  color: #00305a;
+}
+
+#navbar-insurance .navbar-heading {
+  background-color: #ffeee0;
+  height: 100px;
+  border-bottom: 1px solid #fddac1;
+}
+
+#navbar-insurance a.navbar-logo {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+#navbar-insurance .navbar-nav {
+  padding-left: 250px;
+}
+
+#navbar-insurance .navbar-nav a.nav-link {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#navbar-insurance .navbar-contact {
+  width: 230px;
+}
+
+#navbar-insurance .navbar-contact img {
+  float: left;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+#navbar-insurance .navbar-contact .navbar-help {
+  font-size: 14px;
+}
+
+#navbar-insurance .navbar-contact .phone-number {
+  font-size: 26px;
+  color: #ec6608;
+  font-weight: 500;
+}
+
+/* Css cho phần content save */
+
+#content .content-save {
+  height: 820px;
+  background-color: #ffeee0;
+}
+
+#content .save .save-title {
+  color: #00305a;
+  font-family: "Rubik", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  padding-top: 100px;
+  display: block;
+}
+
+#content .save-list {
+  padding-top: 30px;
+}
+
+#content .save-list .list {
+  width: 200px;
+  height: 55px;
+  background-color: #fff;
+}
+
+#content .save-list .list-title {
+  color: #ec6608;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  display: inline-block;
+}
+
+#content .save-list .list-info {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  display: block;
+}
+
+#content .save-list .list img {
+  float: left;
+  padding: 15px;
+}
+
+#content .save .save-note {
+  padding-top: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-align: justify;
+  color: rgb(95, 95, 95);
+}
+
+#content .img-save img {
+  width: 100%;
+}
+
+/* Css cho phần Content FQuocte */
+
+#content .content-fquote {
+  height: 160px;
+  position: relative;
+  text-align: center;
+}
+
+#content .content-fquote .free-quocte {
+  width: 1100px;
+  height: 320px;
+  border: 1px solid #dddddd;
+  padding-left: 80px;
+  padding-right: 80px;
+  box-shadow: 2px 15px 50px 5px #cac9c9;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+#content .content-fquote h1,
+#content .content-special h1 {
+  font-family: "Rubik", sans-serif;
+  color: #00305a;
+  font-size: 46px;
+  padding-top: 40px;
+}
+
+#content .content-fquote p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+#content .free-quocte .fquocte-form {
+  padding-bottom: 30px;
+}
+
+#content .fquocte-form .btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ec6608;
+  padding: 15px 120px 15px 120px;
+  border: 1px solid #ec6608;
+  margin-top: -10px;
+}
+
+#content .fquocte-form .btn:hover {
+  color: #ec6608;
+  background-color: #fff;
+}
+
+#content .content-special {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+#content .content-special p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+#content .content-special .btn {
+  color: #fff;
+  background-color: #ec6608;
+  border: 1px solid #ec6608;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  padding: 12px 30px 12px 30px;
+}
