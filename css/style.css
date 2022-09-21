@@ -37,6 +37,10 @@
   font-weight: 400;
 }
 
+#navbar-insurance .navbar-nav a.nav-link:hover {
+  color: #ec6608;
+}
+
 #navbar-insurance .navbar-contact {
   width: 230px;
 }
@@ -142,7 +146,8 @@
 #content .content-special h1 {
   font-family: "Rubik", sans-serif;
   color: #00305a;
-  font-size: 46px;
+  font-size: 42px;
+  font-weight: 700;
   padding-top: 40px;
 }
 
@@ -190,4 +195,118 @@
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   padding: 12px 30px 12px 30px;
+}
+
+/* Css cho phần Content Guide */
+
+#content .content-guide {
+  background-color: #00305a;
+}
+
+#content .content-guide .guide-heading h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #ec6608;
+  text-align: center;
+  padding: 150px 0 150px 0;
+}
+
+#content .content-guide .guide-sub ol {
+  padding-top: 100px;
+  list-style: none;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+#content .content-guide .guide-sub li {
+  padding-bottom: 60px;
+  color: #fff;
+}
+
+#content .content-guide .guide-sub li .stt {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  width: 40px;
+  height: 40px;
+  background-color: #ec6608;
+  border-radius: 50%;
+  display: inline-block;
+  padding-left: 12px;
+}
+
+/* Css phần Content Special2 */
+
+#content .content-special2 .card-list {
+  margin-top: 60px;
+}
+
+#content .content-special2 .card-list img {
+  background-color: #ec6608;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+#content .content-special2 .card-list h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #00305a;
+  margin-top: 20px;
+}
+
+#content .content-special2 .card-list p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin-top: -10px;
+}
+
+/* Css phần Content Why */
+
+#content .content-why {
+  background-color: #ffeee0;
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+#content .content-why .table th,
+#content .content-why .table td {
+  font-family: "Rubik", sans-serif;
+  line-height: 50px;
+  padding-left: 30px;
+}
+
+#content .content-why .table th {
+  font-size: 24px;
+  font-weight: 500;
+  color: #00305a;
+}
+
+#content .content-why .table td {
+  font-size: 20px;
+}
+
+#content .content-why .table img._2 {
+  padding-left: 80px;
+}
+
+#content .content-why .table img._3 {
+  padding-left: 60px;
+}
+
+/* Css cho phần Content Research */
+
+#content .content-research {
+  background-color: #ec6608;
+  padding-bottom: 40px;
+}
+
+#content .content-research .research-title h1 {
+  padding-top: 80px;
+  font-family: "Rubik", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #00305a;
+  line-height: 1.5;
 }
